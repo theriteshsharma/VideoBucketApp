@@ -1,0 +1,38 @@
+{
+  "buckets": [
+    {
+      "id": 1,
+      "name": "Bucket 1"
+    },
+    {
+      "id": 2,
+      "name": "Bucket 2"
+    }
+  ],
+  "cardItems": [
+    {
+      "id": 3,
+      "buckId": 1,
+      "name": "Video Name 1",
+      "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
+    },
+    {
+      "id": 4,
+      "buckId": 1,
+      "name": "Video Name 2",
+      "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
+    },
+    {
+      "id": 3,
+      "buckId": 2,
+      "name": "Video Name 1",
+      "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
+    },
+    {
+      "id": 4,
+      "buckId": 2,
+      "name": "Video Name 2",
+      "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
+    }
+  ]
+}
