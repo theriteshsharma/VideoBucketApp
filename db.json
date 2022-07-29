@@ -2,37 +2,69 @@
   "buckets": [
     {
       "id": 1,
-      "name": "Bucket 1"
+      "name": "Cat Videos"
     },
     {
       "id": 2,
-      "name": "Bucket 2"
+      "name": "Dog Videos"
+    },
+    {
+      "name": "Tech Tutorials",
+      "id": 3
     }
   ],
   "cardItems": [
     {
-      "id": 3,
+      "id": 1,
       "buckId": 1,
-      "name": "Video Name 1",
+      "name": "Baby Cats",
       "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
     },
     {
-      "id": 4,
+      "id": 2,
       "buckId": 1,
-      "name": "Video Name 2",
-      "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
+      "name": "Funny Cats",
+      "link": "https://www.youtube.com/watch?v=DXUAyRRkI6k"
     },
     {
       "id": 3,
       "buckId": 2,
-      "name": "Video Name 1",
-      "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
+      "name": "Baby Dogs",
+      "link": "https://www.youtube.com/watch?v=4zM9P2keMjs"
     },
     {
       "id": 4,
       "buckId": 2,
-      "name": "Video Name 2",
-      "link": "https://www.youtube.com/watch?v=xkplAcOLKaU"
+      "name": "Funny Dogs",
+      "link": "https://www.youtube.com/watch?v=omPFzLWWm98"
+    },
+    {
+      "id": 5,
+      "buckId": 3,
+      "name": "React 100sec",
+      "link": "https://www.youtube.com/watch?v=Tn6-PIqc4UM"
+    },
+    {
+      "id": 6,
+      "buckId": 3,
+      "name": "React Free Coding Camp",
+      "link": "https://www.youtube.com/watch?v=bMknfKXIFA8"
+    }
+  ],
+  "history": [
+    {
+      "cardId": 5,
+      "name": "React 100sec",
+      "link": "https://www.youtube.com/watch?v=Tn6-PIqc4UM",
+      "timestamp": "Fri Jul 29 2022 20:39:24 GMT+0530 (India Standard Time)",
+      "id": 1
+    },
+    {
+      "cardId": 6,
+      "name": "React Free Coding Camp",
+      "link": "https://www.youtube.com/watch?v=bMknfKXIFA8",
+      "timestamp": "Fri Jul 29 2022 20:43:15 GMT+0530 (India Standard Time)",
+      "id": 2
     }
   ]
 }

@@ -44,14 +44,14 @@ export const addNewBucket = (data) => async (dispatch,payload) =>{
         },
         body:JSON.stringify(data)
     }
-    console.log(options)
+    
     await fetch(`${api}/buckets`,options) .then(data => {
         if (!data.ok) {
           throw Error(data.status);
          }
          return data.json();
         }).then(update => {
-        console.log(update);
+       
         dispatch(addBucket(update))
         }).catch(e => {
         console.log(e);
